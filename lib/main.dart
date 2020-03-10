@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headline1,
             ),
             Text(
               'Revealed secret:\n${ConfigReader.getSecretKey()}',
