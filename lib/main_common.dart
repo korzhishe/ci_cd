@@ -17,7 +17,7 @@ Future<void> mainCommon(String env) async {
       primaryColor = Colors.blue;
       break;
     case Environment.prod:
-      primaryColor = Colors.red;
+      primaryColor = Colors.green;
       break;
   }
 
